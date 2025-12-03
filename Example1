@@ -1,0 +1,13 @@
+""" Class declaration """
+class Cat():
+    def __init__(self):
+        self.name = 'Speed'
+
+    def sayHello (self):
+        print('Hello, my name is',self.name)
+
+""" Object cat1 of class Cat is being instantiated """
+cat1 = Cat()
+
+""" The method sayHello will be executed by the object cat1 """
+cat1.sayHello()
